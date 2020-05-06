@@ -7,6 +7,7 @@
 <meta charset="ISO-8859-1">
 <title>Doctor Management</title>
 <link rel="stylesheet" href="Views/bootstrap.min.css"> 
+<link rel="stylesheet" href="home.css">
 <script src="Components/jquery-3.2.1.min.js"></script> 
 <script src="Components/doctor.js"></script> 
 </head> 
