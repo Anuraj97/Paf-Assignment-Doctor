@@ -26,7 +26,7 @@ public class Doctors {
 			
 			return con; 
 		}
-		
+		//Read doctor details
 		public String readDoctors() {  
 			String output = "";  
 			
@@ -92,7 +92,7 @@ public class Doctors {
 				return output;
 			}
 		
-		//Insert Hospitals
+		//Insert Doctor
 		public String insertDoctors(String docName, String nic, String address, String mobNo, String email, String spec, String hosp, String dept ) {
 			String output = "";
 
@@ -136,7 +136,7 @@ public class Doctors {
 			 return output; 
 		}
 		
-		//Update hospitals
+		//Update Doctor details
 		public String updateDoctors(String ID, String docName, String nic, String address, String mobNo, String email, String spec, String hosp, String dept )  {   
 			String output = ""; 
 		 
